@@ -3,15 +3,6 @@
 
 ## Write a short comment describing this function
 
-a<-c(3,2,5)
-b<-c(2,3,2)
-c<-c(5,2,4)
-a
-b
-c
-x<-rbind(a, b, c)
-
-
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set<- function(y) {
@@ -42,4 +33,12 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
+#testing the code
+#p<-matrix(1:4, 2, 2)
+#p
+#pmatrix<-makeCacheMatrix(p)
+#pmatrix
+#pmatrix$get()
+#cacheSolve(pmatrix)
+#pmatrix$getinverse()
 
